@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Bree Serif', serif;
+    background: linear-gradient(135deg, red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ 
+    div {
+    border: 5px solid teal;
+    font-family: 'Courier New', monotype;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+ 
+span {
+    background-color: #b2b2b2;
+}
+ 
+#parent-container {
+    position: relative;
+    border-color: purple; 
+    top: -10px; 
+}
+
+#static {
+    position: static;
+    height: 100px;
+}
+ 
+#relative {
+    position: relative;
+    border-color: orange;
+    width: 80%;
+    right: -50px;
+    height: 200px;
+}
+ 
+#absolute {
+    position: absolute;
+    border-color:  red;
+    width: 50%; 
+    background-color: #dddada;
+    top: 50%;
+    left: 49%;
+}
+ 
+#fixed {
+    position: fixed;
+    border-color:  blue;
+    width: 300px;
+}

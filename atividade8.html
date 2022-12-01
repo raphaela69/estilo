@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<hmtl lang="pt-br">
+    <head>
+        <meta charset="utf-9">
+        <title>Position</title>
+        <link rel="stylesheet" type="text/css" href="atividade8estilo.css">
+    </head>
+    <body>
+        <h1>Demonstração de CSS Position</h1>
+ 
+        <div id="parent-container">
+        Eu sou o ancestral de todas as caixas dentro de mim. Além disso, eu
+        estou posicionado <span>relativamente (relative)</span>, a 10 pixels do
+        titulo acima.
+ 
+            <div id="static">
+                <span>static</span> significa que este elemento está
+            <i>desposicionado</i>. Ele é renderizado (apresentado) onde o elemento
+            está por padrão, de acordo com o HTML. Ele não está participando dessa
+            brincadeira de posicionamento. </div>
+ 
+        <div id="relative">
+                <span>relative</span> significa que o elemento
+            está posicionado relativamente a si mesmo. Aproveitei essa minha
+            habilidade para me mover uns 50 pixels para a direita. Ah, eu tenho
+            80% de largura!
+ 
+            <div id="absolute">
+                <span>absolute</span> significa que o elemento é posicionado com relação a seu elemento pai
+            <i>posicionado</i> mais próximo. Isso permite que eu, uma caixa de 50%
+            de largura, possa ficar posicionada no canto inferior direito de meu
+            elemento pai.
+            </div>
+        </div>
+ 
+        <div id="fixed">
+            <span>fixed</span> significa que eu estou posicionado relativamente
+        à janela do navegador, também conhecida como viewport. Mesmo que você
+        role a tela, eu ficarei por aqui, de boas...&#128527;
+            </div>
+        </div>
+    </body>
+</hmtl>
